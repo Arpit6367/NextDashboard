@@ -16,7 +16,7 @@
 .form select {
   padding: 30px;
   background-color: var(--bg);
-  color: white;
+  color: black;
   border: 2px solid #2e374a;
   border-radius: 5px;
   margin-bottom: 30px;
