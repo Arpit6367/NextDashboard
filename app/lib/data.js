@@ -4,7 +4,7 @@ import { connectToDB } from "./utils";
 export const fetchUsers = async (q, page) => {
   const regex = new RegExp(q, "i");
 
-  const ITEM_PER_PAGE = 2;
+  const ITEM_PER_PAGE = 5;
 
   try {
     connectToDB();
@@ -29,6 +29,7 @@ export const fetchUser = async (id) => {
     throw new Error("Failed to fetch user!");
   }
 };
+
 
 export const fetchProducts = async (q, page) => {
 

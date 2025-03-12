@@ -25,7 +25,6 @@ export const addUser = async (formData) => {
       isAdmin,
       isActive,
     });
-
     await newUser.save();
   } catch (err) {
     console.log(err);
